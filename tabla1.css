@@ -1,0 +1,203 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'serif';
+}
+/*inicia la parte del encabezado y el logo*/
+#linea{
+    width: 100%;
+	height: 5px;
+	background:  #FFFFFF;
+}
+
+#encabezado{
+	width: auto;
+	height: 133px;
+	border: 0px solid;
+	background: #FFFFCC;
+}
+
+#centro{
+	width: 100%;
+	overflow: hidden;
+	background: #CCCCFF;
+	height: 100vh;
+}
+
+#mapa{
+	overflow: hidden;
+	background: #D8BFD8;
+}
+
+#formulario{
+	overflow: hidden;
+	background: #000000;
+	height: 100vh;
+}
+#formulario{
+	overflow: hidden;
+	background: #E6E6FA;
+	height: 100vh;
+}
+#formularioII{
+	overflow: hidden;
+	background: #E6E6FA;
+	height: 100vh;
+}
+#formularioII{
+	overflow: hidden;
+	background: #E6E6FA;
+	height: 100vh;
+}
+#encabezado #logo{
+	width: 500px;
+    height: auto;
+    border: 0px solid;
+    float: left;
+}
+
+#encabezado #logo h2{
+    color: #000000;
+}
+
+.imagen{
+  width: 100px;
+  height: auto;
+  margin-top: 20px;
+ float: left;
+ margin-right: 15px;
+ margin-left: 20px;
+ border-radius: 50px;
+
+}
+/*Finaliza la parte del encabezado y del logo iher*/
+/*Inicia la parte del menu propiedades generales*/
+#encabezado.menu{
+	width: 790px;
+	float: right;
+	margin-top: 40px;
+	text-align: center;
+	border: 0px solid;
+	font-size: 25px;
+}
+
+nav ul{
+	list-style: none;
+	padding: 0;
+}
+
+nav li{
+	line-height: 2.5rem;
+	position: relative;
+}
+
+.menu ul{
+	position: absolute;
+}
+
+nav a{
+	color: #000000;
+	display: block;
+	text-decoration: none;
+	transition: .4s;
+	padding: 10px 10px;
+}
+
+nav a:hover{
+	background: rgba(0,0,0,.5);
+}
+
+nav li ul{
+	float: right;
+	font-size: 17px;
+}
+/*Menu parte primer nivel*/
+.menu{
+	background:#FFFFCC;
+	display: table;
+	height: auto;
+}
+
+.menu >li{
+	float: left;
+}
+/*menu parte sugundo nivel*/
+nav li li{
+	background: #E6E6FA;
+	max-height: 0;
+	overflow: hidden;
+	transition: all .1s;
+	width: 155px;
+}
+nav li:hover > ul > li{
+	max-height: 500px;
+	overflow: visible;
+}
+.menu > li > ul{
+	top: 100%;
+}
+/*menu parte tercer nivel*/
+.menu ul ul{
+	left: 100%;
+	top: 0;
+}
+/*Finaliza la parte del menu*/
+/*De aqui en adelante es el codigo de la tabla*/
+
+table#mitabla {border-collapse: collapse;}
+td.bajo {background-color: #ff455e;}
+td.medio {background-color: #d63e3e;}
+td.alto {background-color: #940014;}
+
+td.a {background-color: #243ff0;}
+td.b {background-color: #1726cf;}
+td.c {background-color: #100085;}
+
+td.aaa {background-color: #f8ff94;}
+td.bbb {background-color: #fff64f;}
+td.ccc {background-color: #ffff00;}
+
+thead.cabecera tr td {
+	font-family: monospace;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+    color: #ffffff; 
+    padding: 15px;
+}
+
+tfoot.pie tr td {
+	font-size: 18px;
+	font-weight: bold;
+	font-family: Georgia;
+	padding: 2px;}
+
+tbody.cuerpo tr td {
+	color: #ebebeb;
+	padding: 10px;}
+
+td {border-style: solid;
+    border-color: #cccccc;
+ border-width: 2px;}
+
+#pie{
+ 	width: 100%;
+ 	height: 50px;
+ 	background: #CCCCFF;
+}
+
+ #pie #centro-pie{
+ 	width: 800px;
+ 	height: auto; overflow: hidden;
+ 	margin: auto;
+ }
+
+ #pie #centro-pie p{
+ 	color: #000000;
+}
+.email{
+	color: #000000; text-decoration: none;
+}
+.email:hover{
+	text-decoration:  underline;
+}
